@@ -1,5 +1,5 @@
 Three main steps 
-1. Conversion from Keras .h5 file to tensorflow .pb file (courtesy of (here)[https://github.com/amir-abdi/keras_to_tensorflow])
+1. Conversion from Keras .h5 file to tensorflow .pb file [courtesy of here](https://github.com/amir-abdi/keras_to_tensorflow)
 Use following command : 
 python3 keras_to_tensorflow.py -input_model_file <name of the .h5 file>
 
