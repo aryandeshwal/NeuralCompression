@@ -4,7 +4,7 @@ Three main steps
 python3 keras_to_tensorflow.py -input_model_file <name of the .h5 file>
 
 
-2. Conversion to tensorflow .tflite file [courtesy of (here)](https://www.tensorflow.org/lite/devguide)<br>
+2. Conversion to tensorflow .tflite file; [courtesy of (here)](https://www.tensorflow.org/lite/devguide)<br>
 Use following command :
 toco --input_file=<path to generated .pb file> \
   --input_format=TENSORFLOW_GRAPHDEF \
